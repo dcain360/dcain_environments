@@ -7,7 +7,7 @@ data_files.append(('share/ament_index/resource_index/packages', ['resource/' + p
 data_files.append(('share/' + package_name + '/launch', ['launch/f23_robotics_1_launch.py']))
 
 data_files.append(('share/' + package_name + '/worlds', [
-    'worlds/f23_robotics_1.wbt', 
+    'worlds/15thSt.wbt', 
 ]))
 data_files.append(('share/' + package_name, ['package.xml']))
 data_files.append(('share/' + package_name + '/resource', [
@@ -22,9 +22,9 @@ setup(
     data_files=data_files,
     install_requires=['setuptools', 'launch'],
     zip_safe=True,
-    maintainer='Monica Anderson-UA',
-    maintainer_email='anderson@ua.edu',
-    description='Simulation for cs460/560 Homework 1',
+    maintainer='Daniel Cain',
+    maintainer_email='dcain@crimson.ua.edu',
+    description='Outdoor/Indoor Environments',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
